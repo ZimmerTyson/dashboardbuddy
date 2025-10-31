@@ -23,3 +23,9 @@ export interface Quote {
   text: string;
   author: string;
 }
+
+export interface Time {
+  hour: number;
+  minute: number;
+  second: number;
+}
